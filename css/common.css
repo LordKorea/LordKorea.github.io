@@ -40,6 +40,11 @@ img {
   background: url('../images/dl_icon.png') #0090ff no-repeat 95% 50%;
 }
 
+#lk_banner {
+  padding: 10px 50px 10px 10px;
+  background: url('../images/lk_icon.png') #0090ff no-repeat 95% 50%;
+}
+
 /**
  * Button flexboxes.
  */
