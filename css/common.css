@@ -91,6 +91,10 @@ img {
   opacity: 0.35;
 }
 
+.opaque-ribbon {
+  opacity: 0.5;
+}
+
 @media screen and (max-width: 480px) {
   .button-flex-img-ribbon {
     font-size: 24px;
