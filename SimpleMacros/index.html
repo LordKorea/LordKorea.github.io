@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width,maximum-scale=2">
+    <meta name="description" content="SimpleMacros: Easy-to-use Minecraft chat macros">
+    <link rel="stylesheet" type="text/css" media="screen" href="../css/tpl_default.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="../css/common.css">
+    <title>SimpleMacros</title>
+  </head>
+  <body>
+    <div id="header_wrap" class="outer">
+      <header class="inner">
+        <h1 id="project_title">SimpleMacros</h1>
+        <h2 id="project_tagline">Easy-to-use Minecraft chat macros</h2>
+      </header>
+    </div>
+
+    <div id="main_content_wrap" class="outer">
+      <div class="button-flex">
+        <a id="forkme_banner" class="button-flex-elem" href="https://github.com/LordKorea/SimpleMacros">View on GitHub</a>
+        <a id="dl_banner" class="button-flex-elem" href="#releases">Latest releases</a>
+        <a id="lk_banner" class="button-flex-elem" href="https://LordKorea.GitHub.io/">Other projects</a>
+      </div>
+      <section id="main_content" class="inner">
+        <div class="img-corner-box">
+          <img src="./images/editor.png">
+        </div>
+
+        <h2>SimpleMacros</h2>
+          SimpleMacros is a Minecraft mod adding easy-to-use chat macros.
+          <p>
+            It is currently available for Minecraft versions 1.8.9, 1.9.4,
+            1.10.2, 1.11.2 and 1.12.2.
+          </p>
+
+        <h3>Features</h3>
+          <ul>
+            <li>Unlimited macros with unlimited commands per macro</li>
+            <li>Configurable delay between macro commands</li>
+            <li>Choose any key binding for your macros</li>
+            <li>Require control or shift key for macros</li>
+            <li>Macro groups for choosing the right macros for each situation</li>
+          </ul>
+
+        <h3>Installation</h3>
+          <ol>
+            <li>Install <a href="http://www.minecraftforge.net/forum/">Minecraft Forge</a>.</li>
+            <li>Download the release for your minecraft version (see section below).</li>
+            <li>Put the downloaded JAR file into your <code>mods/</code> directory.</li>
+          </ol>
+
+        <h3>Usage</h3>
+          <p>
+            SimpleMacros adds two general key bindings, one for the macro manager (default <strong>F7</strong>) and
+            one for switching the active macro group (default <strong>F8</strong>).
+          </p>
+          <p>
+            The macro manager can be used for adding new macros and configuring existing ones.
+          </p>
+          <img src="./images/editor.png">
+          <p>
+            The text line above the big text field shows which command you are currently editing.
+            Each macro consists of <strong>one or more commands</strong> which are executed in succession when the
+            macro is triggered.
+          </p>
+          <p>
+            The current command can be changed in the big text field. You can also use <strong>regular chat
+            messages</strong> instead of commands which will then be sent to the chat.
+          </p>
+          <p>
+            The four buttons below the text field can be used for navigating through the macros and
+            commands. Clicking the 'Next Macro' or 'Next Command' button while the last macro or command
+            is selected will <strong>create a new macro or command</strong>, respectively.
+          </p>
+          <p>
+            If a macro contains multiple commands they will be sent in succession. The delay between two consecutive
+            commands can be changed with the slider in the middle in steps of 50ms (50ms = 1 tick, 1000ms = 1 second).
+          </p>
+          <p>
+            The key binding for the currently selected macro can be changed by the button on the lower left.
+            To set the binding you just have to click on the button and then press the desired hotkey.
+            The mod does recognize shift and control as valid hotkey modifiers.
+          </p>
+          <p>
+            The text field next to the button can be used for assigning a macro group.
+            Only global macros (empty group) or macros in the currently selected group can be triggered.
+            You can use this for example to disable certain macros on certain servers.
+          </p>
+          <p>
+            The current macro group can be changed by pressing <strong>F8</strong> though this can be
+            changed in the controls screen.
+          </p>
+          <p>
+            Commands in a macro can be deleted by leaving them empty (gaps in between two actual commands
+            won't be deleted). Macros can be deleted by deleting all their commands. Note that macros and commands
+            which qualify for deletion will be deleted on the next restart of the Minecraft client.
+          </p>
+
+        <h3>Releases</h3><a name="releases"></a>
+          The number in parenthesis specifies the Forge build the release was tested with.<br>
+          <p>
+            <a href="https://github.com/LordKorea/SimpleMacros/releases/download/v1.0.1/simplemacros-1.0.1-1.12.2.2623.jar">Release 1.0.1 for Minecraft 1.12.2 (#2623)</a><br>
+            <a href="https://github.com/LordKorea/SimpleMacros/releases/download/v1.0.1/simplemacros-1.0.1-1.11.2.2588.jar">Release 1.0.1 for Minecraft 1.11.2 (#2588)</a><br>
+            <a href="https://github.com/LordKorea/SimpleMacros/releases/download/v1.0.1/simplemacros-1.0.1-1.10.2.2511.jar">Release 1.0.1 for Minecraft 1.10.2 (#2511)</a><br>
+            <a href="https://github.com/LordKorea/SimpleMacros/releases/download/v1.0.1/simplemacros-1.0.1-1.9.4.2051.jar">Release 1.0.1 for Minecraft 1.9.4 (#2051)</a><br>
+            <a href="https://github.com/LordKorea/SimpleMacros/releases/download/v1.0.1/simplemacros-1.0.1-1.8.9.2318.jar">Release 1.0.1 for Minecraft 1.8.9 (#2318)</a><br>
+          </p>
+
+        <h3>Issues, Bugs, Questions</h3>
+          If you have any questions concerning the mod or want to report a bug head over to the project's
+          <a href="https://github.com/LordKorea/SimpleMacros/issues">issue tracker</a>.
+
+        <br><br><br><br>
+      </section>
+    </div>
+  </body>
+</html>
